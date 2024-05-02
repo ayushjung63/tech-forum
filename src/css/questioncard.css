@@ -1,0 +1,36 @@
+.question-main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.question-icon-container{
+    height: 100px;
+    width: 100px;
+}
+
+.question-main-container .question-container{
+    cursor: pointer;
+}
+
+.question-icon-container img{
+    height: 80px;
+    width: 80px;
+}
+
+
+.tag-list{
+    display: flex;
+}
+
+.card-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.poster-detail{
+    font-size: '12px';
+    font-style: italic;
+    color: gray;
+}

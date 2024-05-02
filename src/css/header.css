@@ -1,0 +1,15 @@
+.app-header{
+    height: 100px;
+    background-color:#20256c ;
+    color: white;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-icon-container{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}

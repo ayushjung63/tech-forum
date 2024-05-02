@@ -1,0 +1,16 @@
+.tag-btn {
+  color: #01a99d;
+  font-size: 11px;
+  border: 1px solid #01a99d;
+  height: 20px;
+  padding: 0px 10px;
+  margin: 5px;
+  background-color: #fff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.tag-btn:hover{
+    background-color: #01a99d;
+    color: #fff;
+}

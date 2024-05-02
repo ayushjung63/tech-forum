@@ -1,0 +1,37 @@
+.app-container{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 0 auto;
+}
+  .question-container {
+    flex: 3; /* Takes 60% of the width */
+  }
+  
+  .tag-container {
+    flex: 1; /* Takes 20% of the width */
+    padding: 10px;
+  }
+
+  .tag-container .tag-list{
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+  }
+
+  .filter-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .filter-container .sort-by-text{
+    font-size: '50px';
+    margin-right: 10px;
+    color: gray;
+  }
+
+  .filter-container .sort-by-select{
+   width: 110px;
+  }
